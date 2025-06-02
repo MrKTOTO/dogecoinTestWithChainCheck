@@ -274,7 +274,7 @@ public:
 
         // AuxPoW parameters
         consensus.nAuxpowChainId = 0x0062; // 98 - Josh Wise!
-        consensus.fStrictChainId = false;
+        consensus.fStrictChainId = true;
         consensus.nHeightEffective = 0;
         consensus.fAllowLegacyBlocks = true;
 
