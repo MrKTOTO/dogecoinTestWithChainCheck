@@ -225,6 +225,7 @@ private:
     Consensus::Params digishieldConsensus;
     Consensus::Params auxpowConsensus;
     Consensus::Params minDifficultyConsensus;
+    Consensus::Params chainidConsensus;
 public:
     CTestNetParams() {
         strNetworkID = "test";
